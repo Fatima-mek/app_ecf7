@@ -1,0 +1,13 @@
+html,body{
+  height: 100%;
+  background-color: beige;
+}
+.container:not(#home){
+  min-height: 100vh;
+}
+
+#footer {
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+}

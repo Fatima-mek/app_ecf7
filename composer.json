@@ -1,0 +1,13 @@
+{
+    "name": "fatim/app_ecf7",
+    "authors": [
+        {
+            "name": "mekkaoui",
+            "email": "fatima_mekkaoui@hotmail.fr"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^7.76",
+        "phpmailer/phpmailer": "^6.4"
+    }
+}
