@@ -13,11 +13,11 @@
 
   <div class="sidenav text-center">
 
-  <div class=" badge rounded text-center bg-dark">
-          <a class="navbar-brand" href="index.php"> <img src="./assets/images/perfume2.png" class="" width="70" alt=""></a>
-         <p><i >Best Perfumes</i></p> 
-        </div>
-    <h2 class="text-center text-white">
+    <div class=" badge rounded text-center bg-dark mb-5">
+        <a class="navbar-brand" href="index.php"> <img src="./assets/images/perfume2.png" class="" width="70" alt=""></a>
+        <p><i >Best Perfumes</i></p> 
+    </div>
+    <h2 class="text-center text-white mb-5">
       <?php if (isset($_SESSION['Auth']))
         echo $_SESSION['Auth']->nom;
       ?>
